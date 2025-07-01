@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TradeBot Pro - Assistente de Comércio Exterior</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <div class="logo-section">
+                <div class="logo">
+                    <i class="fas fa-globe-americas"></i>
+                    <span>TradeBot Pro</span>
+                </div>
+                <div class="fecap-logo">
+                    <i class="fas fa-robot" style="font-size: 2rem; color: var(--primary-green);"></i>
+                </div>
+            </div>
+            <nav class="nav">
+                <a href="#home" class="nav-link active">Início</a>
+                <a href="#about" class="nav-link">Sobre</a>
+                <a href="#contact" class="nav-link">Contato</a>
+            </nav>
+        </header>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <!-- Hero Section -->
+            <section id="home" class="hero">
+                <div class="hero-content">
+                    <h1 class="hero-title">
+                        <span class="gradient-text">TradeBot Pro</span>
+                    </h1>
+                    <p class="hero-subtitle">Seu assistente inteligente para Comércio Exterior</p>
+                    <div class="hero-features">
+                        <div class="feature">
+                            <i class="fas fa-robot"></i>
+                            <span>IA Avançada</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-chart-line"></i>
+                            <span>Análise de Mercado</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-globe"></i>
+                            <span>Comércio Global</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Chatbot Section -->
+            <section class="chatbot-section">
+                <div class="chatbot-container">
+                    <div class="chatbot-header">
+                        <div class="chatbot-avatar">
+                            <i class="fas fa-robot"></i>
+                        </div>
+                        <div class="chatbot-info">
+                            <h3>TradeBot Pro</h3>
+                            <span class="status online">Online</span>
+                        </div>
+                        <div class="chatbot-controls">
+                            <button class="control-btn" id="clearChat">
+                                <i class="fas fa-trash"></i>
+                            </button>
+                            <button class="control-btn" id="exportChat">
+                                <i class="fas fa-download"></i>
+                            </button>
+                        </div>
+                    </div>
+                    
+                    <div class="chat-messages" id="chatMessages">
+                        <div class="message bot-message">
+                            <div class="message-avatar">
+                                <i class="fas fa-robot"></i>
+                            </div>
+                            <div class="message-content">
+                                <p>Olá! Sou o TradeBot Pro, seu assistente especializado em Comércio Exterior. Como posso ajudá-lo hoje?</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="chat-input-container">
+                        <div class="input-wrapper">
+                            <input type="text" id="userInput" placeholder="Digite sua pergunta sobre comércio exterior..." maxlength="500">
+                            <button id="sendMessage" class="send-btn">
+                                <i class="fas fa-paper-plane"></i>
+                            </button>
+                        </div>
+                        <div class="typing-indicator" id="typingIndicator" style="display: none;">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- About Section -->
+            <section id="about" class="about-section">
+                <div class="about-content">
+                    <h2>Sobre o TradeBot Pro</h2>
+                    <div class="about-grid">
+                        <div class="about-card">
+                            <i class="fas fa-brain"></i>
+                            <h3>Inteligência Artificial</h3>
+                            <p>Powered by Google Gemini, oferecendo respostas precisas e atualizadas sobre comércio exterior.</p>
+                        </div>
+                        <div class="about-card">
+                            <i class="fas fa-graduation-cap"></i>
+                            <h3>Parceria FECAP</h3>
+                            <p>Desenvolvido em parceria com a Fundação Escola de Comércio Álvares Penteado.</p>
+                        </div>
+                        <div class="about-card">
+                            <i class="fas fa-shield-alt"></i>
+                            <h3>Segurança</h3>
+                            <p>Suas conversas são protegidas e não são armazenadas permanentemente.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- Footer -->
+        <footer id="contact" class="footer">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>FECAP - Fundação Escola de Comércio Álvares Penteado</h3>
+                    <div class="contact-info">
+                        <p><i class="fas fa-map-marker-alt"></i> Av. da Liberdade, 532 - Liberdade, São Paulo - SP, 01502-001</p>
+                        <p><i class="fas fa-phone"></i> (11) 3272-3600</p>
+                        <p><i class="fas fa-envelope"></i> contato@fecap.br</p>
+                        <p><i class="fas fa-globe"></i> www.fecap.br</p>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h3>Redes Sociais</h3>
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/school/fecap/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://www.instagram.com/fecapoficial/" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.facebook.com/fecapoficial" target="_blank"><i class="fab fa-facebook"></i></a>
+                        <a href="https://www.youtube.com/user/fecapoficial" target="_blank"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 TradeBot Pro - Desenvolvido em parceria com FECAP</p>
+            </div>
+        </footer>
+    </div>
+
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html> 

@@ -1,0 +1,75 @@
+[
+  {
+    "timestamp": "2025-06-30T21:00:18.376518",
+    "user_message": "knsjda",
+    "bot_response": "That looks like a random string of letters.  Is there anything I can help you with regarding that string, or did you perhaps make a typo?\n"
+  },
+  {
+    "timestamp": "2025-06-30T21:00:42.198114",
+    "user_message": "O que é Comércio Exterior",
+    "bot_response": "Comércio Exterior é o conjunto de atividades relacionadas à **compra e venda de bens e serviços entre países**. [...]"
+  },
+  {
+    "timestamp": "2025-06-30T21:05:21.327892",
+    "user_message": "O que é Comércio Exterior?",
+    "bot_response": "Comércio Exterior é o conjunto de atividades relacionadas à compra e venda de bens e serviços entre países. [...]"
+  },
+  {
+    "timestamp": "2025-06-30T21:05:32.604809",
+    "user_message": "Responda de forma simples.",
+    "bot_response": "Ok.\n"
+  },
+  {
+    "timestamp": "2025-06-30T21:05:47.029736",
+    "user_message": "Novamente, o que é Comércio Exterior?",
+    "bot_response": "Comércio Exterior é o conjunto de atividades relacionadas à compra e venda de bens e serviços entre países diferentes. [...]"
+  },
+  {
+    "timestamp": "2025-06-30T21:07:36.905519",
+    "user_message": "Quanto é 1 + 1?",
+    "bot_response": "1 + 1 = 2\n"
+  },
+  {
+    "timestamp": "2025-06-30T21:08:08.059616",
+    "user_message": "O que é necessário para fazer exportação do Brasil para a China",
+    "bot_response": "Exportar do Brasil para a China envolve diversos passos e requisitos, que podem variar dependendo do produto e do volume exportado. [...]"
+  },
+  {
+    "timestamp": "2025-06-30T21:08:25.750652",
+    "user_message": "Seja bem direto e simples em suas respostas.",
+    "bot_response": "OK.\n"
+  },
+  {
+    "timestamp": "2025-06-30T21:08:33.002745",
+    "user_message": "Responda minha pergunta novamente",
+    "bot_response": "Por favor, me diga qual era a sua pergunta!  Preciso saber qual pergunta você fez antes para poder responder novamente.\n"
+  },
+  {
+    "timestamp": "2025-06-30T21:08:49.552086",
+    "user_message": "O que é necessário para fazer exportação do Brasil para a China",
+    "bot_response": "Exportar do Brasil para a China envolve um processo complexo que requer planejamento cuidadoso [...]"
+  },
+  {
+    "timestamp": "2025-06-30T21:11:21.790322",
+    "user_message": "o que é comercio exterior",
+    "bot_response": "Comércio exterior é o conjunto de atividades comerciais que envolvem a compra e venda de bens e serviços entre países. [...]"
+  },
+  {
+    "timestamp": "2025-07-01T19:01:35.315910",
+    "user_message": "Quanto é 1 + 1?",
+    "bot_response": "1 + 1 = 2\n"
+  },
+  {
+    "timestamp": "2025-07-01T19:04:34.592969",
+    "user_message": "Quanto é 1 + 1?",
+    "bot_response": "1 + 1 é igual a **2**."
+  },
+  {
+    "timestamp": "2025-07-01T19:05:08.741426",
+    "user_message": "Qual a diferença entre multiplicação e divisão de forma simple?",
+    "bot_response": "Claro! De forma bem simples:\n\n**Multiplicação é JUNTAR.** [...]"
+  }
+]
+{"timestamp": "2025-07-01T19:17:18.883119", "user_message": "Olá", "bot_response": "Olá! Como posso ajudar você hoje?"}
+{"timestamp": "2025-07-01T19:17:58.699089", "user_message": "Me ajude resolver a equação x^2 + 3x - 5 = 0", "bot_response": "Claro! Vamos resolver a equação **x² + 3x - 5 = 0** passo a passo usando a Fórmula de Bhaskara.\n\nEsta é uma equação do segundo grau, que tem a forma geral **ax² + bx + c = 0**.\n\n### Passo 1: Identificar os coeficientes a, b e c\n\nPrimeiro, comparamos a sua equação com a forma geral:\n\n*   **a** é o número que acompanha o x². Como não há número escrito, ele é 1.\n    *   `a = 1`\n*   **b** é o número que acompanha o x.\n    *   `b = 3`\n*   **c** é o termo independente (o número sozinho).\n    *   `c = -5`\n\n### Passo 2: Calcular o discriminante (Delta, Δ)\n\nA fórmula do discriminante é: **Δ = b² - 4ac**\n\nAgora, substituímos os valores de a, b e c que encontramos:\n\nΔ = (3)² - 4 * (1) * (-5)\nΔ = 9 - (-20)\nΔ = 9 + 20\n**Δ = 29**\n\n### Passo 3: Aplicar a Fórmula de Bhaskara\n\nA fórmula para encontrar os valores de x é: **x = (-b ± √Δ) / 2a**\n\nAgora, substituímos os valores de b, Δ e a:\n\nx = (-(3) ± √29) / (2 * 1)\nx = (-3 ± √29) / 2\n\nComo 29 não tem uma raiz quadrada exata, deixamos o valor como √29.\n\n### Passo 4: Encontrar as duas raízes (x' e x'')\n\nA fórmula nos dá duas soluções, uma usando o sinal de mais (+) e outra usando o sinal de menos (-).\n\n*   **Primeira solução (x'):**\n    x' = (-3 + √29) / 2\n\n*   **Segunda solução (x''):**\n    x'' = (-3 - √29) / 2\n\n### Resposta Final\n\nAs soluções (ou raízes) da equação x² + 3x - 5 = 0 são:\n\n**x' = (-3 + √29) / 2**  e  **x'' = (-3 - √29) / 2**\n\n---\n\n**Observação (se precisar dos valores aproximados):**\n\nA raiz quadrada de 29 é aproximadamente 5,385.\n\n*   **x' ≈** (-3 + 5,385) / 2 = 2,385 / 2 ≈ **1,193**\n*   **x'' ≈** (-3 - 5,385) / 2 = -8,385 / 2 ≈ **-4,193**\n\nEspero que isso ajude! Se tiver mais alguma dúvida, pode perguntar."}
+{"timestamp": "2025-07-01T19:19:15.900976", "user_message": "32 - 2", "bot_response": "30"}
